@@ -5,6 +5,10 @@ This is Fine-tuning Whisper for Bangla mozilla common voice dataset. For trainin
 Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It maps a sequence of audio spectrogram features to a sequence of text tokens. First, the raw audio inputs are converted to a log-Mel spectrogram by action of the feature extractor. The Transformer encoder then encodes the spectrogram to form a sequence of encoder hidden states. Finally, the decoder autoregressively predicts text tokens, conditional on both the previous tokens and the encoder hidden states.
 
 
+
+![Alt text](asset/whisper_architecture.svg)
+
+
 | Size | Layers | Width | Heads | Parameters | Bangla-only | Training Status |
 | ------------- | ------------- | --------    |--------    | ------------- | ------------- | --------    |
 tiny   | 4  |384  | 6   | 39 M 	| X |  X
