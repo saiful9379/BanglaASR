@@ -1,8 +1,8 @@
 # BanglaASR
 Bangla ASR model which was trained Bangla Mozilla Common Voice Dataset.
-This is Fine-tuning Whisper for Bangla mozilla common voice dataset. For training Bangla ASR model here used 40k traning and 7k Validation around 400 hours data. We trained 12000 steps this model and get word error rate 4.58%.
+This is Fine-tuning Whisper for Bangla Mozilla common voice dataset. For training Bangla ASR model here used 40k training and 7k Validation of around 400 hours of data. We trained 12000 steps in this model and get word error rate 4.58%.
 
-Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It maps a sequence of audio spectrogram features to a sequence of text tokens. First, the raw audio inputs are converted to a log-Mel spectrogram by action of the feature extractor. The Transformer encoder then encodes the spectrogram to form a sequence of encoder hidden states. Finally, the decoder autoregressively predicts text tokens, conditional on both the previous tokens and the encoder hidden states.
+Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It maps a sequence of audio spectrogram features to a sequence of text tokens. First, the raw audio inputs are converted to a log-Mel spectrogram by the action of the feature extractor. The Transformer encoder then encodes the spectrogram to form a sequence of encoder-hidden states. Finally, the decoder autoregressively predicts text tokens, conditional on both the previous tokens and the encoder's hidden states.
 
 
 
@@ -38,9 +38,9 @@ pip install -r requirements.txt
 
 # Dataset
 
-mozilla building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+mozilla building an open-source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 
-for bangla voice dataset pleasae click [here](https://commonvoice.mozilla.org/bn/datasets)
+- Bangla voice dataset please click [here](https://commonvoice.mozilla.org/bn/datasets)
 
 
 # Training
