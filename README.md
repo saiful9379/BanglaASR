@@ -38,6 +38,10 @@ pip install -r requirements.txt
 
 # Dataset
 
+mozilla building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
+
+for bangla voice dataset pleasae click [here](https://commonvoice.mozilla.org/bn/datasets)
+
 
 # Training
 
