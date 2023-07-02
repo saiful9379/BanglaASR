@@ -52,3 +52,4 @@ for bangla voice dataset pleasae click [here](https://commonvoice.mozilla.org/bn
 # Contribution
 
 # Reference
+1. https://huggingface.co/blog/fine-tune-whisper
