@@ -85,10 +85,18 @@ transcription = processor.decode(predicted_ids, skip_special_tokens=True)
 
 print(transcription)
 ```
+Check [huggingface](https://huggingface.co/bangla-speech-processing/BanglaASR)
 
 # Evaluation
 
 # Contribution
-
+```
+@misc{BanglaASR ,
+  title={Transformer Based Whisper Bangla ASR Model},
+  author={Md Saiful Islam},
+  howpublished={},
+  year={2023}
+}
+```
 # Reference
 1. https://huggingface.co/blog/fine-tune-whisper
