@@ -28,6 +28,7 @@ large  | 32 |1280 | 20 	|1550 M | X |  X
 !pip install evaluate>=0.30
 !pip install jiwer
 !pip install gradio
+!pip install torchaudio
 ```
 or
 
