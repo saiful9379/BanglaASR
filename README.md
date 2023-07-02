@@ -1,5 +1,6 @@
 # BanglaASR
-Fine-tune Bangla ASR model which was trained Bangla Mozilla Common Voice Dataset
+Bangla ASR model which was trained Bangla Mozilla Common Voice Dataset.
+This is Fine-tuning Whisper for Bangla mozilla common voice dataset. For training Bangla ASR model here used 40k traning and 8k Validation around 400 hours data. We trained 12000 steps this model and get word error rate 4.58%.
 
 # Requirments
 ```
