@@ -4,3 +4,4 @@ librosa
 evaluate>=0.30
 jiwer
 gradio
+torchaudio
