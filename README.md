@@ -45,6 +45,12 @@ mozilla building an open-source, multi-language dataset of voices that anyone ca
 
 # Training
 
+Make sure your data path into ```train.py``` script and run,
+
+```
+train.py
+```
+
 # Inference
 
 ```py
