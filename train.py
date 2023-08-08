@@ -40,11 +40,8 @@ def read_data(data_path, data_chunk = 0):
 train_data = read_data(train_tsv, data_chunk=0)
 val_data = read_data(val_tsv, data_chunk=0)
 
-# print(common_voice)
+
 def add_file_path(path):
-    audio_path = os.path.join(mp3_path, path)
-    # if not os.path.exists(audio_path):
-    #     continue
     return os.path.join(mp3_path, path)
 
 
@@ -57,9 +54,6 @@ processor = WhisperProcessor.from_pretrained(model_type, language="Bengali", tas
 
 
 def prepare_dataset(batch):
-    # try:
-    # print(batch["path"])
-
     speech_array, sampling_rate = torchaudio.load(batch["path"], format="mp3")
     speech_array = speech_array[0].numpy()
     speech_array = librosa.resample(np.asarray(speech_array), orig_sr=sampling_rate, target_sr=16000)
@@ -67,8 +61,7 @@ def prepare_dataset(batch):
     batch["sampling_rate"] = 16000
     batch["labels"] = tokenizer(batch["sentence"]).input_ids
     return batch
-    # except:
-    #     pass
+
     
 
 train_data['path'] = train_data['path'].map(lambda x: add_file_path(x))
