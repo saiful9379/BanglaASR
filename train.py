@@ -23,10 +23,8 @@ from model.modeling_whisper import WhisperForConditionalGeneration
 model_type = "openai/whisper-small"
 
 mp3_path = "./dataset/clips"
-# train_tsv = "./dataset/train.tsv"
-# val_tsv = "./dataset/dev.tsv"
 
-train_tsv = "./dataset/validated.tsv"
+train_tsv = "./dataset/train.tsv"
 val_tsv = "./dataset/dev.tsv"
 
 
