@@ -95,6 +95,8 @@ Check [huggingface](https://huggingface.co/bangla-speech-processing/BanglaASR)
 
 # Evaluation
 
+ Mozilla common voice dataset WER: 4.58%
+
 # Contribution
 ```
 @misc{BanglaASR ,
